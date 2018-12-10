@@ -12,8 +12,8 @@ body {
     position: relative;
     height: 395px;
     width: 100%;
-    top: 0;
-    left: 0;
+    margin-top: -1%;
+
     
 }
 /* the logo. Needs work */
@@ -51,12 +51,13 @@ a {
     display: inline-block;
     padding: 10px;
 }
-.nav li:hover {
+.nav li:hover a{
     background: #755638;
 }
 .nav li:hover a{
     color: white;
 }
+
 
 /* home */
 
@@ -81,7 +82,8 @@ aside {
 /* Used for images separating the sections. this is basically perfect */
 
 .fleximg1 {
-    margin-top: 9%;
+    margin-left: 6%;
+    margin-top: 8%;
     display: flex;
     order: 1;
     justify-content: center;
@@ -89,14 +91,12 @@ aside {
 }
 
 .imgsize {
-    width: 20em;
+    width: 17em;
     height: 14em;
     margin-right: auto;
 }
 
 /* menu */
-
-
 
 .title {
     margin-top: 5%;
@@ -127,7 +127,7 @@ aside {
     display: flex;
     flex-wrap: wrap;
     text-align: center;
-    padding-top: 5%;
+    padding-top: 4%;
 }
 
 #options {
